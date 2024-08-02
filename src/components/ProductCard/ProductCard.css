@@ -1,0 +1,49 @@
+.product-card {
+  border: 1px solid #B7B7B7;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 330px;
+  text-align: center;
+  margin: 16px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-details {
+  padding: 16px;
+  padding-top: 0;
+}
+
+.product-details h2 {
+  font-size: 18px;
+  margin: 16px 0 8px;
+  white-space: nowrap; /* Adicionado */
+  overflow: hidden; /* Adicionado */
+  text-overflow: ellipsis; /* Adicionado */
+}
+
+.product-details p {
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap; /* Adicionado */
+  overflow: hidden; /* Adicionado */
+  text-overflow: ellipsis; /* Adicionado */
+
+}
+
+.buy-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}
